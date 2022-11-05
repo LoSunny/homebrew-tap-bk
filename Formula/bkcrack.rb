@@ -6,6 +6,12 @@ class Bkcrack < Formula
   license "Zlib"
   head "https://github.com/kimci86/bkcrack.git", branch: "master"
 
+  bottle do
+    root_url "https://github.com/LoSunny/homebrew-tap-bk/releases/download/bkcrack-1.5.0"
+    sha256 cellar: :any,                 monterey:     "db72fd01f6e970d8bb948c460a1446b5a41a21996cfbaed4d2340d39f9ad4295"
+    sha256 cellar: :any_skip_relocation, x86_64_linux: "f363eca062d0f6735380e19d020e374bfcf5d09d23b598579e305b6ee0eb4e2a"
+  end
+
   depends_on "cmake" => :build
   depends_on "python@3.10" => :optional # For the tools provided
 
