@@ -2,9 +2,9 @@
 
 ## How do I install these formulae?
 
-`brew install sunnylo/tap/<formula>`
+`brew install losunny/tap/<formula>`
 
-Or `brew tap sunnylo/tap` and then `brew install <formula>`.
+Or `brew tap losunny/tap` and then `brew install <formula>`.
 
 ## Documentation
 
